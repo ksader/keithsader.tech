@@ -1,0 +1,21 @@
+User-agent: *
+Disallow: /
+
+User-agent: *
+Allow: /$
+
+# Block known AI crawlers
+User-agent: AhrefsBot
+Disallow: /
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: BingBot
+Disallow: /
+
+User-agent: Googlebot
+Disallow: /
+
+User-agent: YandexBot
+Disallow: /
